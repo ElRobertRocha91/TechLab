@@ -34,7 +34,7 @@ public class Producto {
 
     // Metodo
     public String toString() {
-        return  "ID: " + id + " | " + nombre + " - $" + precio;
+        return  "ID: " + id + " | " + nombre + " - $" + precio + " - Stock: " + cantidadStock;
     }
 
 }
