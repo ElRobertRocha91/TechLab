@@ -16,8 +16,7 @@ public class Servicios {
 
     public static void agregarProducto() {
         sc.nextLine();
-        System.out.println("Nombre del producto: ");
-        String nombre = sc.nextLine();
+        String nombre = Utilidades.leerNombre(sc, "Nombre del producto: ");
         int precio = Utilidades.leerEntero(sc,"Precio del producto: ");
         int stock = Utilidades.leerEntero(sc, "Ingresar stock: ");
         int newId = productos.size() + 1;
