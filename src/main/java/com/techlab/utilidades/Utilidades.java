@@ -11,4 +11,18 @@ public class Utilidades {
         }
         return sc.nextInt();
     }
+
+    public static String leerNombre(Scanner sc, String mensaje) {
+        System.out.println(mensaje);
+        String name;
+        while (true) {
+            name = sc.next();
+            if (name.matches("[a-zA-Z]+")) {
+                break;
+            } else {
+                System.out.println("Debe ingresar solo letras. Vuelva a ingresar: ");
+            }
+        }
+        return name;
+    }
 }
