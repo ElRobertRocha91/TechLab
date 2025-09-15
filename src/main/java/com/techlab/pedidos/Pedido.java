@@ -10,7 +10,7 @@ public class Pedido {
     private int id;
     private Cliente cliente;
     private ArrayList<Producto> productos;
-    private static int contadorPedidos = 0;
+    private static int contadorPedidos = 1;
 
     // Constructor
     public Pedido(Cliente cliente) {
