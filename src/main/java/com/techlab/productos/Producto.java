@@ -37,4 +37,8 @@ public class Producto {
         return  "ID: " + id + " | " + nombre + " - $" + precio + " - Stock: " + cantidadStock;
     }
 
+    public void actualizarCantidadStock() {
+        cantidadStock -= 1;
+    }
+
 }
