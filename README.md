@@ -25,7 +25,7 @@ Estructuración del Código y Legibilidad:
 
 El sistema de gestión tendra: 
 
-1) MENÚ PRINCIPAL INTERACTIVO
+1) MENÚ PRINCIPAL INTERACTIVO:
    Con las siguientes opciones:
 ```
 ---- SISTEMA DE GESTIÓN - TECHLAB ----
@@ -38,29 +38,34 @@ El sistema de gestión tendra:
  0) Salir
 ```
 
-3) INGRESAR PRODUCTOS
+2) INGRESAR PRODUCTOS:
+   
    Implementara una funcionalidad para agregar productos con:
    - Nombre (String).
    - Precio (double).
    - Cantidad de Stock (int).
    Estos se almacenaran en una collección dinámina (ej: ArrayList<Productos>).
 
-4) VISUALIZAR PRODUCTOS
+3) VISUALIZAR PRODUCTOS:
+   
    Listara todos los productos, mostrando:
    - ID (autogenerado o posición en la lista).
    - Nombre, Precio y Stock.
 
-5) BUSCAR PRODUCTO
+4) BUSCAR PRODUCTO:
+   
    Permitira buscar un producto por ID. Si el producto no existe, mostrara un mensaje de error, caso contrario mostrara su información:
    - Nombre.
    - Precio.
    - Stock.
     Ej: ID: 1 | Café Premiun - $1200.0 - Stock: 100 unidades.
 
-6) ELIMINACIÓN DE PRODUCTO
+5) ELIMINACIÓN DE PRODUCTO:
+
    Permitira la eliminación de un poducto por su ID.
    
-7) CREACIÓN DE PEDIDOS
+6) CREACIÓN DE PEDIDOS:
+   
     Solicitara datos del cliente antes de su creación para generar la orden:
     - Nombre del cliente.
     - Email de contacto.
@@ -68,7 +73,8 @@ El sistema de gestión tendra:
     Luego de mostrara la lista de productos disponibles y solicitara al usuario que productos desea seleccionar por su ID.
     Tendra una verificación de stock en caso de haber stock insuficiente y actualizara el stock del producto solicitado.
     
-8) LISTAR PEDIDOS GENERADOS
+7) LISTAR PEDIDOS GENERADOS:
+
     Mostrara todos los pedidos generados con el costo total de cada uno de ellos, donde se podra visualizar:
     - Número de Orden (ID).
     - Nombre del cliente.
