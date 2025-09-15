@@ -4,7 +4,7 @@ Bienvenido a mi proyecto académico, lo desarrolle durante mi participación en 
 
 ## Objetivos del proyecto
 
-El objetivo de este proyecto es el poner en practica los conocimientos adquiridos en programación con Java:
+El objetivo de este proyecto es desarrollar un SISTEMA DE GESTIÓN, poniendo en practica los conocimientos adquiridos en programación con Java:
 
 Programación Oriendata a Objetos y Principios de diseño:
   - Dividir la lógica en clases y métodos: Producto, Cliente, Pedido y Menú.
