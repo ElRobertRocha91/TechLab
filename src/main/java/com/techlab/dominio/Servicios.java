@@ -112,6 +112,7 @@ public class Servicios {
     private static Producto productoSeleccionadoPorId(int id) {
         for (Producto p: productos) {
             if(p.getId() == id) {
+                p.actualizarCantidadStock();
                 return p;
             }
         }
