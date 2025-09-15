@@ -22,6 +22,6 @@ public class Cliente {
 
     // Metodo
     public String toString() {
-        return nombre + "("+email+ ")";
+        return nombre + " - Email: " + email;
     }
 }
