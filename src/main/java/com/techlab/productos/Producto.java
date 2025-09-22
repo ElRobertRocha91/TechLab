@@ -1,5 +1,7 @@
 package com.techlab.productos;
 
+import com.techlab.excepciones.StockInsuficienteException;
+
 public class Producto {
     // Variables
     private int id;
@@ -32,13 +34,25 @@ public class Producto {
         return cantidadStock;
     }
 
+    public void setCantidadStock(int cantidadStock) {
+        if(cantidadStock >= 0){
+            this.cantidadStock = cantidadStock;
+        } else {
+            System.out.println("No se puede asignar Stock negativo.");
+        }
+    }
+
     // Metodo
     public String toString() {
         return  "ID: " + id + " | " + nombre + " - $" + precio + " - Stock: " + cantidadStock;
     }
 
-    public void actualizarCantidadStock() {
-        cantidadStock -= 1;
+    public void actualizarCantidadStock(int cantidad) throws StockInsuficienteException {
+        if (cantidad <= cantidadStock) {
+            cantidadStock -= cantidad;
+        } else {
+            throw new StockInsuficienteException("Stock insuficiente. No se puede descontar " + cantidad + " unidades.");
+        }
     }
 
 }
