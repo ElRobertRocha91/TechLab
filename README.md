@@ -50,7 +50,7 @@ El sistema de gestión tendra:
    - Precio (double).
    - Cantidad de Stock (int).
    
-   Estos se almacenaran en una collección dinámina (Ej: ArrayList<Productos>).
+   Estos se almacenaran en una colección dinámina (Ej: ArrayList<Productos>).
 
 ```
 =============================================
@@ -114,7 +114,7 @@ ID: 1 | Café - $1200.0 - Stock: 500
 
 5) ELIMINACIÓN DE PRODUCTO:
 
-   Permitira la eliminación de un poducto por su ID.
+   Permitira la eliminación de un producto por su ID.
 ```
 =============================================
 ------------ PRODUCTO - TECHLAB -------------
