@@ -4,7 +4,9 @@ Bienvenido a mi proyecto académico, lo desarrolle durante mi participación en 
 
 ## Objetivos del proyecto
 
-El objetivo de este proyecto es desarrollar un SISTEMA DE GESTIÓN, poniendo en practica los conocimientos adquiridos en programación con Java:
+El objetivo de este proyecto es desarrollar un sistema de gestión para una empresa ficticia conocida como TechLab S.A., líder en servicios de gestión. 
+Desarrollando un programa con la funcionalidad de registrar, mostrar y gestionar productos, así como crear pedidos que involucren varios productos, 
+poniendo en práctica los conocimientos adquiridos en programación con Java SE 21:
 
 Programación Oriendata a Objetos y Principios de diseño:
   - Dividir la lógica en clases y métodos: Producto, Cliente, Pedido y Menú.
