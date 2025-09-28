@@ -30,6 +30,13 @@ El sistema de gestión tendra:
 1) MENÚ PRINCIPAL INTERACTIVO:
 
    Con las siguientes opciones:
+   - Agregar producto.
+   - Listar producto.
+   - Buscar producto.
+   - Eliminar producto.
+   - Crear pedido.
+   - Listar pedidos.
+   - Salir
 ```
 =============================================
 ------- SISTEMA DE GESTIÓN - TECHLAB --------
