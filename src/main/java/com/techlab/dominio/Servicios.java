@@ -33,8 +33,12 @@ public class Servicios {
         System.out.println("=============================================");
         System.out.println("------------ PRODUCTOS - TECHLAB ------------");
         System.out.println("=============================================");
-        for (Producto p: productos) {
-            System.out.println(p);
+        if (productos == null || productos.isEmpty()) {
+            System.out.println("No hay productos en stock. ❌");
+        } else {
+            for (Producto p : productos) {
+                System.out.println(p);
+            }
         }
     }
 
